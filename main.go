@@ -1,8 +1,8 @@
 package main
 
 import (
-	"demo/lines"
-	"demo/print"
+	"github.com/jacqw8/demo/lines"
+	"github.com/jacqw8/demo/print"
 )
 
 func main() {

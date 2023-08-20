@@ -16,6 +16,8 @@ func CountLines() {
 	var filename string
 	flag.StringVar(&filename, "file", "", "name of file")
 	flag.Parse()
+	fmt.Println(os.Getwd())
+	fmt.Println(filename)
 	// open file
 	f, err := os.Open(filename)
 	// check for errors
