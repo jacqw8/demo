@@ -14,10 +14,10 @@ func Hi() {
 func CountLines() {
 	// use flag to get filename from command line argument
 	var filename string
+	// the command will look like "go run main.go -file lines/lines.go"
+	// where the name of file goes after the flag "-file"
 	flag.StringVar(&filename, "file", "", "name of file")
 	flag.Parse()
-	fmt.Println(os.Getwd())
-	fmt.Println(filename)
 	// open file
 	f, err := os.Open(filename)
 	// check for errors

@@ -7,6 +7,6 @@ import (
 
 func main() {
 	print.Print()
-	lines.Hi()
-	(lines.CountLines())
+	// lines.Hi()
+	lines.CountLines()
 }
