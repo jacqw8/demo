@@ -7,10 +7,6 @@ import (
 	"os"
 )
 
-func Hi() {
-	fmt.Println("HI new package!")
-}
-
 func CountLines() {
 	// use flag to get filename from command line argument
 	var filename string
